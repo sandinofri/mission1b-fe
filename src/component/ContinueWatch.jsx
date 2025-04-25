@@ -66,7 +66,7 @@ const ContinueWatch = () => {
             src={blue}
             alt=""
           />
-          <div className="absolute inset-0 z-50 flex items-start sm:p-4 p-2 rounded-lg">
+          <div className="absolute inset-0 z-49 flex items-start sm:p-4 p-2 rounded-lg">
             <p className="bg-[#0F1E93] py-1 px-2.5 rounded-2xl sm:text-[12px] text-[5px]">
               Episode Baru
             </p>

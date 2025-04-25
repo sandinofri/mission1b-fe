@@ -55,7 +55,7 @@ const Series = () => {
         isVisible={true}
       />
       <ContinueWatch />
-      <SeriesComponent header="Series Persembahan Chill" />
+      <SeriesComponent header="Series Persembahan Chill" location="series"/>
       <TopRating />
       <FilmTrending />
       <RilisBaru />

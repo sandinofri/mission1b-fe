@@ -7,9 +7,12 @@ const DaftarSayaComponent = () => {
       <h3 className="sm:text-3xl text-[20px] font-bold mb-4 mt-4 sm:mt-0">
         Daftar Saya
       </h3>
-      <div className="flex justify-between flex-wrap overflow-auto sm:overflow-visible scrollbar-hide scroll-smooth sm:gap-6 gap-3 relative">
-        {daftarSaya.map((item,index) => (
-          <div key={index} className="sm:w-[150px] sm:h-[250px] w-[100px] h-[160px] shrink-0 relative">
+      <div className="flex justify-between flex-wrap overflow-auto sm:overflow-visible scrollbar-hide scroll-smooth sm:gap-6 gap-3 relative ">
+        {daftarSaya.map((item, index) => (
+          <div
+            key={index}
+            className="sm:w-[150px] sm:h-[250px] w-[100px] h-[160px] shrink-0 relative"
+          >
             <img
               className="w-full h-full rounded-lg object-cover"
               src={item.image}
